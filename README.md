@@ -1,4 +1,3 @@
-chrome-worldcup2014-extension
-=============================
+# World Cup 2014 - Chrome Extension
 
-Work in Progress :v:
+Work in Progress
