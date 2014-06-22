@@ -1,0 +1,21 @@
+{
+    "name": "World Cup 2014",
+    "description": "", 
+    "browser_action": {
+        "default_icon": "img/icon32.png", 
+        "default_title": "World Cup 2014", 
+        "default_popup": "app.html"
+    }, 
+    "icons": {  
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "permissions": [
+        "notifications"
+    ],
+    "manifest_version": 2,
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+    "version": "0.1.0"
+}
