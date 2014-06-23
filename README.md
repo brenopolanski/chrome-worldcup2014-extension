@@ -1,7 +1,5 @@
 # World Cup 2014 - Chrome Extension [![Build Status](https://travis-ci.org/brenopolanski/chrome-worldcup2014-extension.svg?branch=master)](https://travis-ci.org/brenopolanski/chrome-worldcup2014-extension)
 
-Work in Progress
-
 ## Install
 
 1. Clone project;
@@ -28,7 +26,7 @@ For detailed changelog, check [Releases](https://github.com/brenopolanski/chrome
 
 I gratefully acknowledge the following open source project:
 
-* [World Cup JSON](https://github.com/estiens/world_cup_json) Rails backend for a scraper that outputs World Cup data as JSON.
+* [World Cup JSON](https://github.com/estiens/world_cup_json) - Rails backend for a scraper that outputs World Cup data as JSON.
 
 ## License
 
