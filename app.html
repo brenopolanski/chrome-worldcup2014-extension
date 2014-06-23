@@ -6,7 +6,11 @@
 	<!-- Meta -->
 	<meta charset="UTF-8">
 	<meta http-equiv="refresh" content="10">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="World Cup 2014">
+	<meta name="author" content="Breno Polanski">
 
+	<!-- Font -->
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
 
@@ -14,31 +18,30 @@
 	<link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+	<!-- begin/.container -->
 	<div class="container">
 		<header>
 			<h1 class="title-cup">2014 FIFA World Cup</h1>
 			<img class="img-cup" src="img/fifa-world-cup-brazil.png" alt="Logo FIFA World Cup Brazil">
 		</header>
 		<main>
+			<div class="loading"><img src="img/loading.gif" alt="Loading..."></div>
 			<div class="info">
 				<span class="location"></span>
 			</div>
 			<div class="match">
-				<div class="home-team">
-					<img src="" alt="">
-				</div>
-				<div class="home-team-goal"></div>
-				<div class="vs">x</div>
-				<div class="away-team-goal"></div>
-				<div class="away-team">
-					<img src="" alt="">
-				</div>
+				<div class="home-team"><img src="" alt=""></div>
+				<div class="home-team-goal font-result"></div>
+				<div class="vs font-result hide">x</div>
+				<div class="away-team-goal font-result"></div>
+				<div class="away-team"><img src="" alt=""></div>
 			</div>
 		</main>
 		<footer>
-			<h1 class="about">by Breno Polanski</h1>
+			<p class="about">by <a href="https://github.com/brenopolanski" target="_blank">Breno Polaski</a></p>
 		</footer>
 	</div>
+	<!-- end/.container -->
 	
 	<!-- JS -->
 	<script src="js/jquery.min.js"></script>

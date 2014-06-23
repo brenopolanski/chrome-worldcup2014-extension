@@ -1,58 +1,63 @@
 /**
- * Description: World Cup 2014 - Chrome Extension.
- * Version: 0.1.0
- * Last update: 2014/06/22
- * Author: Breno Polanski <breno.polanski@gmail.com>
+ * Copyright 2014, All Rights Reserved.
+ *
+ * Code licensed under the MIT License:
+ * http://brenopolanski.mit-license.org
+ *
+ * @author Breno Polanski <breno.polanski@gmail.com>
+ * Release version 0.1.0
  *
  * Summary:
  *
- *	0. ELEMENT
- *		- 0.1. TYPE ELEMENT
- *		- 0.2. TYPE ELEMENT
- *	1. ELEMENT
- *		- 1.1. TYPE ELEMENT
- *		- 1.2. TYPE ELEMENT
+ *	0. GLOBAL
+ *	1. APP
+ *		- 1.1. HEADER
+ *		- 1.2. MAIN
+ *		- 1.3. FOOTER
  */
 
 /* ==========================================================================
-   0. ELEMENT
-   ========================================================================== */
-
-/* 0.1. TYPE ELEMENT
-   ========================================================================== */
-
-/* 0.2. TYPE ELEMENT
+   0. GLOBAL
    ========================================================================== */
 
 *, *:before, *:after {
 	margin: 0;
 	padding: 0;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
 body {
+	background-color: #FFF;
 	font-family: 'Josefin Sans', sans-serif;
-	font-style: normal;
-	background: #FFF;
 	font-size: 18px;
+	font-style: normal;
 	color: #29251F;
 	width: 300px;
 	height: 250px;
 }
 
-header {
-	height: 50px;
-	background-color: #FAFAFA;
-	border-bottom: 1px solid #EBEBEB;
+.hide {
+	display: none;
 }
+
+/* ==========================================================================
+   1. APP
+   ========================================================================== */
 
 .container {
 	position: fixed;
 	width: 300px;
 	height: 250px;
-	/*border: 1px solid #000;*/
+}
+
+/* 1.1. HEADER
+   ========================================================================== */
+
+header {
+	height: 50px;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #EBEBEB;
 }
 
 .title-cup {
@@ -74,8 +79,17 @@ header {
 	right: 15px;
 }
 
+/* 1.2. MAIN
+   ========================================================================== */
+
 main {
 	height: 160px;
+}
+
+.loading {
+	position: absolute;
+	top: 123px;
+	left: 142px;
 }
 
 .info {
@@ -87,10 +101,14 @@ main {
 	font-size: 15px;
 }
 
+.font-result {
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+}
+
 .match {
 	height: 150px;
 	width: 100%;
-	/*border: 1px solid #000;*/
 }
 
 .home-team {
@@ -100,8 +118,6 @@ main {
 }
 
 .home-team-goal {
-	font-family: 'Francois One', sans-serif;
-	font-size: 20px;
 	position: absolute;
 	top: 123px;
 	left: 125px;
@@ -114,20 +130,19 @@ main {
 }
 
 .away-team-goal {
-	font-family: 'Francois One', sans-serif;
-	font-size: 20px;
 	position: absolute;
 	top: 123px;
 	right: 125px;
 }
 
 .vs {
-	font-family: 'Francois One', sans-serif;
-	font-size: 20px;
 	position: absolute;
 	top: 123px;
 	left: 146px;
 }
+
+/* 1.3. FOOTER
+   ========================================================================== */
 
 footer {
 	height: 40px;
@@ -137,8 +152,7 @@ footer {
 
 .about {
 	font-size: 12px;
-	font-style: italic;
 	text-align: center;
-	color: #999;
+	color: #666;
 	margin-top: 15px;
 }
