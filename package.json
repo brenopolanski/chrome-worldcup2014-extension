@@ -1,7 +1,7 @@
 {
   "name": "chrome-worldcup2014-extension",
   "version": "0.1.0",
-  "description": "World Cup 2014 - Chrome Extension",
+  "description": "World Cup 2014 in real time - Chrome Extension",
   "repository": {
     "type": "git",
     "url": "https://github.com/brenopolanski/chrome-worldcup2014-extension"
