@@ -11,7 +11,7 @@ $(function() {
 	'use strict';
 
 	var BASE_URL_TEAMS = 'img/teams/',
-	    MATCH = 1;
+	    MATCH = 0;
 
 	var app = {
 		init: function() {
