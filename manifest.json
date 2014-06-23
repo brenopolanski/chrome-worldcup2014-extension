@@ -1,6 +1,6 @@
 {
     "name": "World Cup 2014",
-    "description": "World Cup 2014 in real time - Chrome Extension", 
+    "description": "World Cup 2014 in real time", 
     "browser_action": {
         "default_icon": "img/icon32.png", 
         "default_title": "World Cup 2014", 
