@@ -24,15 +24,17 @@ $(function() {
 				url: 'http://worldcup.sfg.io/matches/current',
 				dataType: 'json',
 				success: function(data) {
-					$('.loading').hide();
-					$('.vs').show();
 					app._clearLocalStorage(data);
-					app._createLocalStorage();
-					app._appendLocation(data[MATCH].location);
-					app._appendHomeTeam(data[MATCH].home_team.code, data[MATCH].home_team.goals);
-					app._appendAwayTeam(data[MATCH].away_team.code, data[MATCH].away_team.goals);
-					app._eventHomeTeam(data[MATCH].home_team_events);
-					app._eventAwayTeam(data[MATCH].away_team_events);
+					if (data.length > 0) {
+						$('.loading').hide();
+						$('.vs').show();
+						app._createLocalStorage();
+						app._appendLocation(data[MATCH].location);
+						app._appendHomeTeam(data[MATCH].home_team.code, data[MATCH].home_team.goals);
+						app._appendAwayTeam(data[MATCH].away_team.code, data[MATCH].away_team.goals);
+						app._eventHomeTeam(data[MATCH].home_team_events);
+						app._eventAwayTeam(data[MATCH].away_team_events);
+					}
 				}
 			});
 		},
