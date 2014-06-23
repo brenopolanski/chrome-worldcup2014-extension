@@ -1,5 +1,7 @@
 # World Cup 2014 - Chrome Extension [![Build Status](https://travis-ci.org/brenopolanski/chrome-worldcup2014-extension.svg?branch=master)](https://travis-ci.org/brenopolanski/chrome-worldcup2014-extension)
 
+![logo](https://raw.githubusercontent.com/brenopolanski/chrome-worldcup2014-extension/master/logo.png)
+
 ## Install
 
 1. Clone project;
