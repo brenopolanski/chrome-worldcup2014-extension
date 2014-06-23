@@ -2,6 +2,8 @@
 
 ![logo](https://raw.githubusercontent.com/brenopolanski/chrome-worldcup2014-extension/master/logo.png)
 
+> Google Chrome Extension of World Cup 2014 in real time.
+
 ## Install
 
 1. Clone project;
