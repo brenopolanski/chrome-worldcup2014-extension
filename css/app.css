@@ -1,0 +1,77 @@
+/**
+ * Description: World Cup 2014 - Chrome Extension.
+ * Version: 0.1.0
+ * Last update: 2014/06/22
+ * Author: Breno Polanski <breno.polanski@gmail.com>
+ *
+ * Summary:
+ *
+ *	0. ELEMENT
+ *		- 0.1. TYPE ELEMENT
+ *		- 0.2. TYPE ELEMENT
+ *	1. ELEMENT
+ *		- 1.1. TYPE ELEMENT
+ *		- 1.2. TYPE ELEMENT
+ */
+
+/* ==========================================================================
+   0. ELEMENT
+   ========================================================================== */
+
+/* 0.1. TYPE ELEMENT
+   ========================================================================== */
+
+/* 0.2. TYPE ELEMENT
+   ========================================================================== */
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	background: #FFF;
+	font-size: 18px;
+	color: #29251F;
+}
+
+header {
+	height: 50px;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.title-cup {
+	font-family: 'Francois One', sans-serif;
+	font-style: italic;
+	font-size: 1rem;
+	color: #999;
+	text-shadow: 1px 1px #FFF;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.img-cup {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 4px;
+	right: 15px;
+}
+
+main {
+	height: 200px;
+}
+
+.container {
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000;
+}
