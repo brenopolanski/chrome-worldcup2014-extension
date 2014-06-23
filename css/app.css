@@ -38,12 +38,21 @@ body {
 	background: #FFF;
 	font-size: 18px;
 	color: #29251F;
+	width: 300px;
+	height: 250px;
 }
 
 header {
 	height: 50px;
 	background-color: #FAFAFA;
 	border-bottom: 1px solid #EBEBEB;
+}
+
+.container {
+	position: fixed;
+	width: 300px;
+	height: 250px;
+	/*border: 1px solid #000;*/
 }
 
 .title-cup {
@@ -66,12 +75,70 @@ header {
 }
 
 main {
-	height: 200px;
+	height: 160px;
 }
 
-.container {
-	position: fixed;
-	width: 300px;
-	height: 300px;
-	border: 1px solid #000;
+.info {
+	text-align: center;
+	padding: 10px;
+}
+
+.location {
+	font-size: 15px;
+}
+
+.match {
+	height: 150px;
+	width: 100%;
+	/*border: 1px solid #000;*/
+}
+
+.home-team {
+	position: absolute;
+	top: 120px;
+	left: 15px;
+}
+
+.home-team-goal {
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 123px;
+	left: 125px;
+}
+
+.away-team {
+	position: absolute;
+	top: 120px;
+	right: 15px;
+}
+
+.away-team-goal {
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 123px;
+	right: 125px;
+}
+
+.vs {
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 123px;
+	left: 146px;
+}
+
+footer {
+	height: 40px;
+	background-color: #FAFAFA;
+	border-top: 1px solid #EBEBEB;
+}
+
+.about {
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	color: #999;
+	margin-top: 15px;
 }
