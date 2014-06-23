@@ -1,4 +1,4 @@
-# World Cup 2014 - Chrome Extension
+# World Cup 2014 - Chrome Extension [![Build Status](https://travis-ci.org/brenopolanski/chrome-worldcup2014-extension.svg?branch=master)](https://travis-ci.org/brenopolanski/chrome-worldcup2014-extension)
 
 Work in Progress
 
