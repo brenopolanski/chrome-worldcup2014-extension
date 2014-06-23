@@ -2,6 +2,14 @@
 
 Work in Progress
 
+## Install
+
+1. Clone project;
+2. Open Google Chrome;
+3. Click on the Preferences icon;
+4. Click Tools > Extensions > set the mode option Developer;
+5. Click in Load unpacked extension.
+
 ## Contributing
 
 1. Fork it!
