@@ -40,7 +40,7 @@ $(function() {
 		},
 
 		_clearLocalStorage: function(data) {
-			if (data.length <= 0) {
+			if (data.length === 0) {
 				localStorage.clear();
 			}
 		},
