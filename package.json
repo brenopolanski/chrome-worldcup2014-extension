@@ -1,0 +1,28 @@
+{
+  "name": "chrome-worldcup2014-extension",
+  "version": "0.1.0",
+  "description": "World Cup 2014 - Chrome Extension",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brenopolanski/chrome-worldcup2014-extension"
+  },
+  "keywords": [
+    "world-cup-2014",
+    "chrome",
+    "extension"
+  ],
+  "author": {
+    "name": "Breno Polanski",
+    "email": "brenopolanski@gmail.com",
+    "web": "http://brenopolanski.com",
+    "twitter": "brenopolanski"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenopolanski/chrome-worldcup2014-extension/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0"
+  }
+}

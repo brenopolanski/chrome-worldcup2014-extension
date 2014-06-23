@@ -1,0 +1,13 @@
+{
+	"bitwise": true,
+	"boss": true,
+	"curly": true,
+	"eqeqeq": true,
+	"forin": true,
+	"noempty": true,
+	"plusplus": true,
+	"quotmark": true,
+	"unused": true,
+	"strict": true,
+	"trailing": true
+}

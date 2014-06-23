@@ -8,7 +8,7 @@
  * Release version 0.1.0
  */
 $(function() {
-	'use strict'
+	'use strict';
 
 	var BASE_URL_TEAMS = 'img/teams/',
 	    MATCH = 1;
@@ -69,7 +69,7 @@ $(function() {
 		_eventHomeTeam: function(arr) {
 			if (arr.length > 0 && arr.length > Number(localStorage.getItem('home_team'))) {
 				if (Notification.permission === 'granted') {
-					var notification = new Notification(
+					new Notification(
 						arr[arr.length-1].type_of_event + ' ' + arr[arr.length-1].time + '"', {
 							body: arr[arr.length-1].player,
 							icon: this._iconTypeEvent(arr[arr.length-1].type_of_event)
@@ -84,7 +84,7 @@ $(function() {
 		_eventAwayTeam: function(arr) {
 			if (arr.length > 0 && arr.length > Number(localStorage.getItem('away_team'))) {
 				if (Notification.permission === 'granted') {
-					var notification = new Notification(
+					new Notification(
 						arr[arr.length-1].type_of_event + ' ' + arr[arr.length-1].time + '"', {
 							body: arr[arr.length-1].player,
 							icon: this._iconTypeEvent(arr[arr.length-1].type_of_event)
@@ -97,35 +97,39 @@ $(function() {
 		},
 
 		_iconTypeEvent: function(event) {
-			switch (event){
+			var path_img;
+
+			switch (event) {
 			case 'goal':
-				return 'img/soccer-ball.png';
+				path_img = 'img/soccer-ball.png';
 				break;
 			case 'goal-penalty':
-				return 'img/soccer-ball.png';
+				path_img = 'img/soccer-ball.png';
 				break;
 			case 'goal-own':
-				return 'img/soccer-ball.png';
+				path_img = 'img/soccer-ball.png';
 				break;
 			case 'yellow-card':
-				return 'img/card.png';
+				path_img = 'img/card.png';
 				break;
 			case 'red-card':
-				return 'img/card.png';
+				path_img = 'img/card.png';
 				break;
 			case 'substitution-in':
-				return 'img/substitution.png';
+				path_img = 'img/substitution.png';
 				break;
 			case 'substitution-out':
-				return 'img/substitution.png';
+				path_img = 'img/substitution.png';
 				break;
 			case 'substitution-in halftime':
-				return 'img/substitution.png';
+				path_img = 'img/substitution.png';
 				break;
 			case 'substitution-out halftime':
-				return 'img/substitution.png';
+				path_img = 'img/substitution.png';
 				break;
 			}
+
+			return path_img;
 		}
 	};
 
