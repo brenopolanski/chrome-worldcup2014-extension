@@ -22,6 +22,14 @@ Work in Progress
 
 For detailed changelog, check [Releases](https://github.com/brenopolanski/chrome-worldcup2014-extension/releases).
 
+## Credits
+
+* [Iconfinder](https://www.iconfinder.com/)
+
+I gratefully acknowledge the following open source project:
+
+* [World Cup JSON](https://github.com/estiens/world_cup_json) Rails backend for a scraper that outputs World Cup data as JSON.
+
 ## License
 
 [MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
